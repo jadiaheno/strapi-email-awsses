@@ -1,6 +1,6 @@
 {
   "name": "strapi-email-awsses",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "AWS SES provider for strapi email",
   "homepage": "http://strapi.io",
   "keywords": [
