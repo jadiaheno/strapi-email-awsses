@@ -1,0 +1,47 @@
+{
+  "name": "strapi-email-awsses",
+  "version": "1.0.0",
+  "description": "AWS SES provider for strapi email",
+  "homepage": "http://strapi.io",
+  "keywords": [
+    "email",
+    "strapi",
+    "aws",
+    "ses",
+    "amazon"
+  ],
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib",
+  "dependencies": {
+    "@node-ses": "^2.1.0"
+  },
+  "strapi": {
+    "isProvider": true
+  },
+  "author": {
+    "email": "jonathan.strapi@proxybus.com",
+    "name": "Proxybus",
+    "url": "http://proxybus.com"
+  },
+  "maintainers": [
+    {
+      "name": "Jonathan Adiaheno",
+      "email": "jonathan.strapi@proxybus.com",
+      "url": "http://proxybus.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bobberkarl/strapi-email-awsses.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bobberkarl/strapi-email-awsses/issues"
+  },
+  "engines": {
+    "node": ">= 9.0.0",
+    "npm": ">= 5.3.0"
+  },
+  "license": "MIT"
+}
